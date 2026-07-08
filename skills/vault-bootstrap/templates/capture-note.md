@@ -5,7 +5,7 @@
 ---
 id: {{YYYY-MM-DD-HHMM}}
 created: {{ISO_DATETIME}}
-source: voice | text | web
+source: voice | text | chat | web
 status: inbox
 reviewed: false
 tags: []

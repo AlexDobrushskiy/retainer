@@ -37,8 +37,7 @@ Single source of truth for priorities and time budget. Plans reference this file
 
 <!-- recurring shape of the week: anchors, client days, protected slots -->
 
-## Decision log
+## Open decisions
 
-| Date | Decision | Page |
-|---|---|---|
-| {{DATE}} | Vault created | — |
+<!-- one line per undecided page in decisions/ — [[link]] + the question; remove
+     when closed. Decided history lives in decisions/ and log.md, not here. -->

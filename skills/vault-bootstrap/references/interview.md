@@ -22,11 +22,13 @@ Goal: seed the vault with enough context that the next session can help effectiv
 
 **5. Working with the AI** — communication style (direct vs. gentle, pushback appetite, verbosity), how they capture thoughts today (voice memos, notes app — decides the inbox pipeline), planning cadence they'll actually sustain (full monthly/weekly/daily vs. weekly-only to start; when unsure, recommend starting weekly-only and tightening later), review cadence for goals. → `context/preferences.md`, kernel guard rails
 
+Whenever an external source comes up in ANY round (a work calendar, health tracker, task app), ask how AI sessions should access it and record the answer as the source's access status. If there's no connection yet, the status is "not connected — ask {{NAME}} to read it out", written wherever the source is referenced. The vault must never instruct future sessions to consult a source it records no access path for.
+
 **6. Optional modules** — now that the user has seen what the core covers, offer the extras, one line each: finances (income, invoices, runway), health/training (sleep, sport, events), travel (trip planning), people/CRM (contacts, conversation threads). Note that any can be added later. Then interview ONLY the chosen ones: finances — income streams, runway, what to track monthly; health/training — current activity, events, constraints/injuries; travel, people/CRM — analogous basics. → module files in `context/` or `active/`
 
 ## Writing the results
 
 - Third person, factual, dated where relevant ("As of {{DATE}}...").
 - Every `context/` file opens with `## TL;DR` — 3–6 lines a future session can triage from.
-- The user's own phrasing for patterns and preferences beats paraphrase — quote them.
+- The user's own phrasing for patterns and preferences beats paraphrase — quote them, but normalize obvious dictation/speech-to-text artifacts first (the meaning is theirs; the typo isn't).
 - Numbers the user gave (hours, rates, cutoffs) go verbatim into the kernel's guard rails.
