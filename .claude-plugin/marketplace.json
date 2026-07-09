@@ -1,20 +1,20 @@
 {
-  "name": "vault-bootstrap",
-  "description": "Marketplace for the vault-bootstrap skill — bootstrap a personal AI-maintained knowledge vault.",
+  "name": "retainer",
+  "description": "Marketplace for the retainer skill — bootstrap a personal AI-maintained knowledge vault.",
   "owner": {
     "name": "Alex Dobrushskiy",
     "url": "https://github.com/AlexDobrushskiy"
   },
   "plugins": [
     {
-      "name": "vault-bootstrap",
+      "name": "retainer",
       "description": "Create a personal AI-maintained knowledge vault (life OS) from scratch: a guided interview seeds your context, goals, and plans into plain markdown; an AGENTS.md kernel makes every future agent session read and maintain the vault.",
       "version": "0.1.0",
       "author": {
         "name": "Alex Dobrushskiy",
         "url": "https://github.com/AlexDobrushskiy"
       },
-      "homepage": "https://github.com/AlexDobrushskiy/vault-bootstrap",
+      "homepage": "https://github.com/AlexDobrushskiy/retainer",
       "category": "productivity",
       "tags": ["knowledge-management", "second-brain", "life-os", "personal-vault", "obsidian"],
       "source": "./"

@@ -1,4 +1,6 @@
-# vault-bootstrap
+# retainer
+
+*An AI that's served your house for years — starting now.*
 
 An installable [Agent Skill](https://agentskills.io) that builds you a **personal, AI-maintained knowledge vault** — a plain-markdown folder your coding agent reads and maintains across sessions: who you are, what you're working toward, your plans, your decisions, your patterns.
 
@@ -37,16 +39,16 @@ From then on, any agent session opened in that folder knows you — and keeps th
 ### Claude Code
 
 ```
-/plugin marketplace add AlexDobrushskiy/vault-bootstrap
-/plugin install vault-bootstrap@vault-bootstrap
+/plugin marketplace add AlexDobrushskiy/retainer
+/plugin install retainer@retainer
 ```
 
 ### Codex, Gemini CLI, Cursor, or any Agent Skills client
 
 ```bash
-git clone https://github.com/AlexDobrushskiy/vault-bootstrap
+git clone https://github.com/AlexDobrushskiy/retainer
 mkdir -p ~/.agents/skills
-cp -r vault-bootstrap/skills/vault-bootstrap ~/.agents/skills/
+cp -r retainer/skills/retainer ~/.agents/skills/
 ```
 
 (OpenCode also reads `~/.claude/skills/`, so a Claude Code install covers it too.)
@@ -55,7 +57,7 @@ cp -r vault-bootstrap/skills/vault-bootstrap ~/.agents/skills/
 
 Open your agent **in a new, empty folder** and say:
 
-> Set up my personal knowledge vault — use the vault-bootstrap skill.
+> Set up my personal knowledge vault — use the retainer skill.
 
 ## Privacy
 

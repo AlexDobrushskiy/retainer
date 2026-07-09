@@ -27,4 +27,4 @@ Quick query: `grep "^## \[" log.md | tail -20`
 
 ## [{{DATE}}] structure | vault bootstrapped
 
-Vault created via vault-bootstrap skill. Initial interview seeded: {{FILES_CREATED_SUMMARY}}. Open items marked `⚠️ to capture`: {{OPEN_ITEMS_SUMMARY}}.
+Vault created via retainer skill. Initial interview seeded: {{FILES_CREATED_SUMMARY}}. Open items marked `⚠️ to capture`: {{OPEN_ITEMS_SUMMARY}}.

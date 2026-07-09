@@ -1,10 +1,10 @@
 {
-  "name": "vault-bootstrap",
+  "name": "retainer",
   "description": "Create a personal AI-maintained knowledge vault (life OS) from scratch — interview-driven setup of a plain-markdown folder that agent sessions read and maintain across conversations.",
   "version": "0.1.0",
   "author": {
     "name": "Alex Dobrushskiy",
     "url": "https://github.com/AlexDobrushskiy"
   },
-  "homepage": "https://github.com/AlexDobrushskiy/vault-bootstrap"
+  "homepage": "https://github.com/AlexDobrushskiy/retainer"
 }

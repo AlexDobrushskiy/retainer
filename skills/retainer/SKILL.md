@@ -1,9 +1,9 @@
 ---
-name: vault-bootstrap
+name: retainer
 description: Use when a user wants to create a personal AI-maintained knowledge vault ("life OS", second brain, personal memory) from scratch — setting up a markdown folder that AI sessions will read and maintain across conversations, seeded by interviewing the user.
 ---
 
-# Vault Bootstrap
+# Retainer
 
 Build a personal markdown vault whose **agent is the runtime and files are the memory**. The mechanics live in a kernel file (AGENTS.md) that routes questions to files and obligates the agent to maintain its own memory. Editor/sync tooling (Obsidian, git, Dropbox) is the user's choice and not part of the mechanics.
 
